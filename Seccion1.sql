@@ -28,6 +28,8 @@ INSERT INTO users VALUES
 (default, 'María', 'González'),
 (default, 'Carlos', 'Sánchez'),
 (default, 'Laura', 'Martínez'),
-(default, 'Luis', 'Rodríguez');
-	
+(default, 'Luis', 'Rodríguez');	
 /*Diferentes acciones son una consulta*/
+
+/*CONSULTAS USANDO LA CLAUSULA DE SELECT*/
+SELECT name FROM users;  /*Esto solo muestra todos los nombres de la tabla*/
