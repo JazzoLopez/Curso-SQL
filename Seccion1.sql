@@ -14,10 +14,20 @@ lastname VARCHAR(50) NOT NULL
 );
 
 /*MOSTRAR LAS TABLAS DE UNA BASE DE DATOS*/
-SHOW TABLES;	 /*DEBE MOSTRAR SOLO LA TABLA DE USERS*/
+SHOW TABLES;	  /*DEBE MOSTRAR SOLO LA TABLA DE USERS*/
 
 /*MOSTRAR LOS DATOS DE LA TABLA*/
 
 SELECT * FROM users; /*DEBE MOSTRAR NULL PUES NO HEMOS INSERTADO NADA, EL ASTERISCO INDICA QUE QUEREMOS TODO DE LA TABLA SIN LIMITACIONES*/
 
+/*INSERTAR DATOS EN LA TABLA DE USERS*/
 
+-- Suponiendo que la tabla se llama 'usuarios'
+INSERT INTO users VALUES
+(default, 'Juan', 'Pérez'),  /*CADA UNA DE LAS FILAS REPRESENTA UN REGISTRO*/
+(default, 'María', 'González'),
+(default, 'Carlos', 'Sánchez'),
+(default, 'Laura', 'Martínez'),
+(default, 'Luis', 'Rodríguez');
+	
+/*Diferentes acciones son una consulta*/
